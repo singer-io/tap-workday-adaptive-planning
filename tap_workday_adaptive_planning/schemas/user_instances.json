@@ -1,1 +1,46 @@
-{}
+{
+    "type": "object",
+    "properties": {
+        "userGuid": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "userName": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "wid": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "instances": {
+            "type": [
+                "null",
+                "array"
+            ],
+            "items": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "default": {
+                        "type": [
+                            "null",
+                            "boolean"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

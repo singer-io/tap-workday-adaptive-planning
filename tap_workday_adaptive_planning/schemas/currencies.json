@@ -1,1 +1,41 @@
-{}
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "code": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "precision": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "isReportingCurrency": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "userDefined": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "description": {
+            "type": [
+                "null",
+                "string"
+            ]
+        }
+    }
+}

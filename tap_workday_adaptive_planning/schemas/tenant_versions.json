@@ -1,1 +1,46 @@
-{}
+{
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "shortName": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "parent": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "journalEntryVersion": {
+            "type": [
+                "null",
+                "boolean"
+            ]
+        },
+        "journalEntryVersionProperties": {
+            "type": "object",
+            "properties": {
+                "journalEntryNumbering": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "startingNumber": {
+                    "type": [
+                        "null",
+                        "integer"
+                    ]
+                }
+            }
+        }
+    }
+}

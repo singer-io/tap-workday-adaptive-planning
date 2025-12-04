@@ -1,1 +1,484 @@
-{}
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "prefix": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "name": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "description": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "available-in-actuals": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "allow-splits": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "split-column-title": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "strataId": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "columns": {
+            "type": "object",
+            "properties": {
+                "levels": {
+                    "type": "object",
+                    "properties": {
+                        "code": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "name": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "read-only": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "splittable": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "required": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "level": {
+                            "type": [
+                                "null",
+                                "array"
+                            ],
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "id": {
+                                        "type": [
+                                            "null",
+                                            "string"
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "text": {
+                    "type": [
+                        "null",
+                        "array"
+                    ],
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "code": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "name": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "read-only": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "splittable": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "required": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "dimension": {
+                    "type": "object",
+                    "properties": {
+                        "code": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "name": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "read-only": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "splittable": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "required": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "id": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "value": {
+                            "type": [
+                                "null",
+                                "array"
+                            ],
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "id": {
+                                        "type": [
+                                            "null",
+                                            "string"
+                                        ]
+                                    },
+                                    "name": {
+                                        "type": [
+                                            "null",
+                                            "string"
+                                        ]
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "text-selector": {
+                    "type": [
+                        "null",
+                        "array"
+                    ],
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "code": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "name": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "read-only": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "splittable": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "required": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "id": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "value": {
+                                "type": [
+                                    "null",
+                                    "array"
+                                ],
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "id": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "name": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "date": {
+                    "type": [
+                        "null",
+                        "array"
+                    ],
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "code": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "name": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "read-only": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "splittable": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "required": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "number": {
+                    "type": "object",
+                    "properties": {
+                        "code": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "name": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "read-only": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "splittable": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "required": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        }
+                    }
+                },
+                "initial-balance": {
+                    "type": "object",
+                    "properties": {
+                        "code": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "name": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "read-only": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "splittable": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "required": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "id": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        }
+                    }
+                },
+                "display": {
+                    "type": "object",
+                    "properties": {
+                        "code": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "name": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "read-only": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "splittable": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "required": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "id": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        }
+                    }
+                },
+                "level-currency": {
+                    "type": "object",
+                    "properties": {
+                        "code": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "name": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "read-only": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "splittable": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "required": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "id": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,1 +1,233 @@
-{}
+{
+    "type": "object",
+    "properties": {
+        "InternalID": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Plan": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "CapitalAssetClass": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Label": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Price": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Currency": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Mar-2016": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Q1-FY16": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Apr-2016": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "May-2016": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Jun-2016": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Q2-FY16": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Jul-2016": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Aug-2016": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Sep-2016": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Q3-FY16": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Oct-2016": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Nov-2016": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Dec-2016": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Q4-FY16": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "FY2016": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Jan-2017": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Feb-2017": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Mar-2017": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Q1-FY17": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Apr-2017": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "May-2017": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Jun-2017": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Q2-FY17": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Jul-2017": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Aug-2017": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Sep-2017": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Q3-FY17": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Oct-2017": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Nov-2017": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Dec-2017": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Q4-FY17": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "FY2017": {
+            "type": [
+                "null",
+                "string"
+            ]
+        }
+    }
+}

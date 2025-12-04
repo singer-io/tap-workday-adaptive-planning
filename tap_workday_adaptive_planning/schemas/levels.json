@@ -1,1 +1,88 @@
-{}
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "name": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "currency": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "shortName": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "isImportable": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "workflowStatus": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "level": {
+            "type": [
+                "null",
+                "array"
+            ],
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "name": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "currency": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "shortName": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "isImportable": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "workflowStatus": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

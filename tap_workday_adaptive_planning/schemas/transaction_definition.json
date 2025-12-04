@@ -1,1 +1,196 @@
-{}
+{
+    "type": "object",
+    "properties": {
+        "posting-date": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                }
+            }
+        },
+        "type": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "value": {
+                    "type": [
+                        "null",
+                        "array"
+                    ],
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "id": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "name": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "accounts": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                }
+            }
+        },
+        "levels": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                }
+            }
+        },
+        "dimension": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "name": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "value": {
+                    "type": [
+                        "null",
+                        "array"
+                    ],
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "id": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "name": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "text-selector": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "name": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "value": {
+                    "type": [
+                        "null",
+                        "array"
+                    ],
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "id": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "name": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "text": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                }
+            }
+        },
+        "number": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                }
+            }
+        },
+        "date": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                }
+            }
+        },
+        "amount": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                }
+            }
+        }
+    }
+}
