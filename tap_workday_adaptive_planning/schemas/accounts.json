@@ -1,1 +1,816 @@
-{}
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "code": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "name": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "description": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "timeStratum": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "displayAs": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "accountTypeCode": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "decimalPrecision": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "isAssumption": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "suppressZeroes": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "isDefaultRoot": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "shortName": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "balanceType": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "isLinked": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "owningSheetId": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "isSystem": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "isIntercompany": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "isImportable": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "dataEntryType": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "planBy": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "timeRollup": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "timeWeightAcctId": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "levelDimRollup": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "levelDimWeightAcctId": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "rollupText": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "startExpanded": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "hasSalaryDetail": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "dataPrivacy": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "isBreakbackEligible": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "subType": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "enableActuals": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "isGroup": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "account": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "code": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "name": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "description": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "timeStratum": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "displayAs": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "accountTypeCode": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "decimalPrecision": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "isAssumption": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "suppressZeroes": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "isDefaultRoot": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "shortName": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "exchangeRateType": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "balanceType": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "isLinked": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "owningSheetId": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "isSystem": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "isIntercompany": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "dataEntryType": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "planBy": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "timeRollup": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "timeWeightAcctId": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "levelDimRollup": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "levelDimWeightAcctId": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "rollupText": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "startExpanded": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "hasSalaryDetail": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "dataPrivacy": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "isBreakbackEligible": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "subType": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "enableActuals": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "isGroup": {
+                    "type": [
+                        "null",
+                        "string"
+                    ]
+                },
+                "account": {
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "code": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "name": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "description": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "timeStratum": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "displayAs": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "accountTypeCode": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "decimalPrecision": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "isAssumption": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "suppressZeroes": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "isDefaultRoot": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "shortName": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "exchangeRateType": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "balanceType": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "isLinked": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "owningSheetId": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "isSystem": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "isIntercompany": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "dataEntryType": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "planBy": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "timeRollup": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "timeWeightAcctId": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "levelDimRollup": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "levelDimWeightAcctId": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "rollupText": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "startExpanded": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "hasSalaryDetail": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "dataPrivacy": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "isBreakbackEligible": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "subType": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "enableActuals": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "isGroup": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "account": {
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "code": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "name": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "description": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "timeStratum": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "displayAs": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "accountTypeCode": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "decimalPrecision": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "isAssumption": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "suppressZeroes": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "isDefaultRoot": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "shortName": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "exchangeRateType": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "balanceType": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "isLinked": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "owningSheetId": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "isSystem": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "isIntercompany": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "dataEntryType": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "planBy": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "timeRollup": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "timeWeightAcctId": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "levelDimRollup": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "levelDimWeightAcctId": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "rollupText": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "startExpanded": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "hasSalaryDetail": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "dataPrivacy": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "isBreakbackEligible": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "subType": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "enableActuals": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "isGroup": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "attributes": {
+                                    "type": "object",
+                                    "properties": {
+                                        "attribute": {
+                                            "type": [
+                                                "null",
+                                                "array"
+                                            ],
+                                            "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "name": {
+                                                        "type": [
+                                                            "null",
+                                                            "string"
+                                                        ]
+                                                    },
+                                                    "value": {
+                                                        "type": [
+                                                            "null",
+                                                            "string"
+                                                        ]
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

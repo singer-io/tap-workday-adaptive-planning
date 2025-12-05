@@ -1,1 +1,47 @@
-{}
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "guid": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "login": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "email": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "name": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "permissionSetId": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "timeZone": {
+            "type": [
+                "null",
+                "string"
+            ]
+        }
+    }
+}

@@ -1,1 +1,390 @@
-{}
+{
+    "type": "object",
+    "properties": {
+        "allow-actuals": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "allow-allocation": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "allow-edits-in-rollup-mode": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "breakback-pattern": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "code": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "description": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "frozen-column-count": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "has-salary-detail": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "isglobal": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "prefix": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "revision": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "selected-plan-ids": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "state": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "strata-code": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "strata-id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "Columns": {
+            "type": "object",
+            "properties": {
+                "AssignablePlan": {
+                    "type": "object",
+                    "properties": {
+                        "abbr": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "code": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "id": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "is-splitable": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "name": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "read-only": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "show-total-at-bottom": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        },
+                        "tool-tip": {
+                            "type": [
+                                "null",
+                                "string"
+                            ]
+                        }
+                    }
+                },
+                "Driver": {
+                    "type": [
+                        "null",
+                        "array"
+                    ],
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "abbr": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "code": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "decimal-precision": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "driver-type": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "id": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "is-split-key": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "is-splitable": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "name": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "read-only": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "show-total-at-bottom": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "tool-tip": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "Dimension": {
+                    "type": [
+                        "null",
+                        "array"
+                    ],
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "abbr": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "code": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "codeHasBeenUpdated": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "hasOverriddenTitle": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "id": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "is-splitable": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "isEditDimension": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "isHiddenOnSheet": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "isTextSelector": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "name": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "read-only": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "show-total-at-bottom": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "tagType": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "tool-tip": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "requiredColumn": {
+                                "type": [
+                                    "null",
+                                    "string"
+                                ]
+                            },
+                            "DimensionValue": {
+                                "type": [
+                                    "null",
+                                    "array"
+                                ],
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "abbr": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "id": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "in-use": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "name": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        },
+                                        "sort-order": {
+                                            "type": [
+                                                "null",
+                                                "string"
+                                            ]
+                                        }
+                                    }
+                                }
+                            },
+                            "LookupTables": {
+                                "type": "object",
+                                "properties": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "CalculatedAccounts": {
+            "type": "object",
+            "properties": {}
+        },
+        "Assumptions": {
+            "type": "object",
+            "properties": {}
+        }
+    }
+}

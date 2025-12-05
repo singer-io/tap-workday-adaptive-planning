@@ -1,1 +1,54 @@
-{}
+{
+    "type": "object",
+    "properties": {
+        "timestamp": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "action": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "actor": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "version": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "interface": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "object": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "outcome": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "context": {
+            "type": [
+                "null",
+                "string"
+            ]
+        }
+    }
+}

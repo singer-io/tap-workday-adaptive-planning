@@ -1,1 +1,237 @@
-{}
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "name": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "shortName": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "type": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "isVirtual": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "description": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "isDefaultVersion": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "isLocked": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "hasAuditTrail": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "isImportable": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "startVer": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "completedValuesThru": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "startScroll": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "endVer": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "lockLeading": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "version": {
+            "type": [
+                "null",
+                "array"
+            ],
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "name": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "shortName": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "type": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "isVirtual": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "description": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "isDefaultVersion": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "isLocked": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "hasAuditTrail": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "isImportable": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "version": {
+                        "type": [
+                            "null",
+                            "array"
+                        ],
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "name": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "shortName": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "type": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "isVirtual": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "description": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "isDefaultVersion": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "isLocked": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "hasAuditTrail": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "isImportable": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,1 +1,46 @@
-{}
+{
+    "type": "object",
+    "properties": {
+        "userGuid": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "wid": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "userName": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "permissionSet": {
+            "type": [
+                "null",
+                "array"
+            ],
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": [
+                            "null",
+                            "integer"
+                        ]
+                    },
+                    "name": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

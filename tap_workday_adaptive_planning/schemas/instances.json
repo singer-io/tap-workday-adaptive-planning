@@ -1,1 +1,83 @@
-{}
+{
+    "type": "object",
+    "properties": {
+        "code": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "name": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "sessionTimeout": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "calendarType": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "systemCurrency": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "products": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "options": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "workdayTenantID": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "workdayEnvironment": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "workdayUiUrl": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "workdayRestUrl": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "datasources": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "notificationType": {
+            "type": [
+                "null",
+                "string"
+            ]
+        }
+    }
+}

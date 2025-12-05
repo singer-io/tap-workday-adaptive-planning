@@ -1,1 +1,174 @@
-{}
+{
+    "type": "object",
+    "properties": {
+        "code": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "label": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "shortName": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "stratumId": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "timeslot": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "encodedTimePeriod": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "id": {
+            "type": [
+                "null",
+                "string"
+            ]
+        },
+        "end": {
+            "type": [
+                "null",
+                "string"
+            ],
+            "format": "date-time"
+        },
+        "period": {
+            "type": [
+                "null",
+                "array"
+            ],
+            "items": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "label": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "shortName": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "stratumId": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "timeslot": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "encodedTimePeriod": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "id": {
+                        "type": [
+                            "null",
+                            "string"
+                        ]
+                    },
+                    "end": {
+                        "type": [
+                            "null",
+                            "string"
+                        ],
+                        "format": "date-time"
+                    },
+                    "period": {
+                        "type": [
+                            "null",
+                            "array"
+                        ],
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "code": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "label": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "shortName": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "stratumId": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "timeslot": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "encodedTimePeriod": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "id": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ]
+                                },
+                                "end": {
+                                    "type": [
+                                        "null",
+                                        "string"
+                                    ],
+                                    "format": "date-time"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
